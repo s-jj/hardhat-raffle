@@ -11,10 +11,10 @@ const networkConfig = {
         interval: "30",
     },
     31337: {
-        name: "hardhat",
+        name: "localHost",
         entranceFee: ethers.utils.parseEther("0.01"),
         gasLane: "0xd89b2bf150e3b9e13446986e571fb9cab24b13cea0a43ea20a6049a85cc807cc", //doesn't matter
-        callbackGasLimit: "50000", // 500.000 gas
+        callbackGasLimit: "500000", // 500.000 gas
         interval: "30",
     },
 }
